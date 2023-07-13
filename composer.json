@@ -1,0 +1,14 @@
+{
+    "name": "esg-scoring/laravel-package-generator",
+    "description": "generate with artisan",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "laravel/framework": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EsgScoring\\LaravelPackageGenerator\\": "src/"
+        }
+    }
+}
